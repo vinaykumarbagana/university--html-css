@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>University Website</title>
+    
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+</head>
+<body> 
+    <section class="sub-header">
+      <nav>
+        <a href="index.html"><img src="images/logo.png"></a>
+        <div class="nav-links" id="navLinks">
+            <i class="fa fa-times" aria-hidden="true" onclick="hideMenu()"></i>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="About.html">About</a></li>
+                <li><a href="Course.html">Course</a></li>
+                <li><a href="Blog.html">Blog</a></li>
+                <li><a href="Contact.html">Contact</a></li>
+            </ul>
+        </div>
+        <i class="fa fa-bars"  onclick="showMenu()"></i>
+      </nav>
+<h1>Contact Us</h1>
+   </section>
+   <!--------------Contact us-------------------------->
+ <section class="location">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d30460.695765051525!2d78.46467737993163!3d17.38359659611141!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sin!4v1667027206132!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    
+ </section>
+ <div class="contact-us">
+    <div class="row">
+        <div class="contact-col">
+            <div>
+                <i class="fa fa-mobile" aria-hidden="true"></i>
+                <span>
+                    <h5>+53444536745</h5>
+                    <p>Monday to Saturday, 10AM to 6PM</p>
+                </span>
+              
+            </div>
+            <div>
+                <i class="fa fa-location-arrow" aria-hidden="true"></i>
+                <span>
+                    <h5>xyz Road Abc Building</h5>
+                    <p>Visakhapatnam,Andhrapradesh</p>
+                </span>
+              
+            </div>
+            <div>
+                <i class="fa fa-envelope" aria-hidden="true"></i>
+                <span>
+                    <h5>universe@gmail.com</h5>
+                    <p>Email us your query</p>
+                </span>
+              
+            </div>
+         
+        </div>
+        <div class="contact-col">
+            <form action="">
+                <input type="text" placeholder="Enter your Name" required>
+                <input type="email" placeholder="Enter your Email Name" required>
+                <input type="text" placeholder="Enter your Subject" required>
+                <textarea rows="8" placeholder="message" required></textarea>
+                <button type="submit" class="hero-btn red-btn">send Message</button>
+            </form>
+        </div>
+    </div>
+</div>
+ </section>
+
+
+<!--------------footer-------------------------->
+<section class="footer">
+    <h4>About Us</h4>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+         Aliquid veritatis tempore natus nulla,<br> laborum deleniti unde beatae incidunt sequi dolorem hic,
+         accusamus dolorum maxime aut eos laboriosam ut voluptate. Eveniet!</p>
+
+ <div class="icons">
+    <i class="fab fa-youtube"></i>
+    <i class="fab fa-whatsapp"></i>
+    <i class="fab fa-slack-hash"></i>
+    <i class="fab fa-stack-overflow"></i>
+    <i class="fab fa-github"></i>
+    <i class="fab fa-facebook"></i>
+    <i class="fab fa-instagram fa-lg"></i>
+   
+ </div>
+ <p>Made With  <i class="fa fa-heart" aria-hidden="true"></i> by VinayKumar</i></p>
+    
+</section>
+
+
+    <script>
+        var navLinks = document.getElementById("navLinks");
+        function showMenu(){
+            navLinks.style.right ="0"; 
+        }
+        function hideMenu(){
+            navLinks.style.right ="-200px"
+        }
+    </script>
+</body>
+</html>

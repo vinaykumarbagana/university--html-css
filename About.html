@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>University Website</title>
+    
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+</head>
+<body> 
+    <section class="sub-header">
+      <nav>
+        <a href="index.html"><img src="images/logo.png"></a>
+        <div class="nav-links" id="navLinks">
+            <i class="fa fa-times" aria-hidden="true" onclick="hideMenu()"></i>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="About.html">About</a></li>
+                <li><a href="Course.html">Course</a></li>
+                <li><a href="Blog.html">Blog</a></li>
+                <li><a href="Contact.html">Contact</a></li>
+            </ul>
+        </div>
+        <i class="fa fa-bars"  onclick="showMenu()"></i>
+      </nav>
+<h1>About Us</h1>
+   </section>
+   <!--------------ABOUT us content-------------------------->
+   <section class="about-us">
+    <div class="row">
+    <div class="about-col">
+     <h1>We are the World's largest University</h1>
+     <p>Lorem ipsum dolor sit amet consectetur, 
+        adipisicing elit.   adipisicing elit. Inventore expedita, maxime earum laboriosam 
+        necessitatibus assumenda fugit illo qui, deserunt consequuntur est
+         quod enim optio corporis ab natus, hic provident quae?  adipisicing elit. Inventore expedita, maxime earum laboriosam 
+         necessitatibus assumenda fugit illo qui, deserunt consequuntur est
+          quod enim optio corporis ab natus, hic provident quae?Inventore expedita, maxime earum laboriosam 
+        necessitatibus assumenda fugit illo qui, deserunt consequuntur est
+         quod enim optio corporis ab natus, hic provident quae?  adipisicing elit. Inventore expedita, maxime earum laboriosam 
+         necessitatibus assumenda fugit illo qui, deserunt consequuntur est
+          quod enim optio corporis ab natus, hic provident quae?  adipisicing elit. Inventore expedita, maxime earum laboriosam 
+          necessitatibus assumenda fugit illo qui, deserunt consequuntur est
+           quod enim optio corporis ab natus, hic provident quae?
+        </p>
+         <a href="" class="hero-btn red-btn">"EXPLORE NOW</a>
+
+    </div>
+    <div class="about-col">
+      <img src="images/about.jpg">
+    </div>
+</div>
+   </section>
+
+
+<!--------------footer-------------------------->
+<section class="footer">
+    <h4>About Us</h4>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+         Aliquid veritatis tempore natus nulla,<br> laborum deleniti unde beatae incidunt sequi dolorem hic,
+         accusamus dolorum maxime aut eos laboriosam ut voluptate. Eveniet!</p>
+
+ <div class="icons">
+    <i class="fab fa-youtube"></i>
+    <i class="fab fa-whatsapp"></i>
+    <i class="fab fa-slack-hash"></i>
+    <i class="fab fa-stack-overflow"></i>
+    <i class="fab fa-github"></i>
+    <i class="fab fa-facebook"></i>
+    <i class="fab fa-instagram fa-lg"></i>
+   
+ </div>
+ <p>Made With  <i class="fa fa-heart" aria-hidden="true"></i> by VinayKumar</i></p>
+    
+</section>
+
+
+    <script>
+        var navLinks = document.getElementById("navLinks");
+        function showMenu(){
+            navLinks.style.right ="0"; 
+        }
+        function hideMenu(){
+            navLinks.style.right ="-200px"
+        }
+    </script>
+</body>
+</html>
